@@ -1,10 +1,10 @@
 //Data: assume we have a list of top 5 movies
 let topMovies = [
-    {id: 0, title: "The Shawshank Redemption", year: 1994, image_url: "Images/MovieImages/movie0.jpg"},
-    {id: 1, title: "The Godfather ", year: 1972, image_url: "Images/MovieImages/movie1.jpg"},
-    {id: 2, title: "The Dark Knight", year: 2008, image_url: "Images/MovieImages/movie2.jpg"},
-    {id: 3, title: "12 Angry Men", year: 1957, image_url: "Images/MovieImages/movie3.jpg"},
-    {id: 4, title: " Schindler\'s List", year: 1993, image_url: "Images/MovieImages/movie4.jpg"},
+    {id: 0, title: "The Shawshank Redemption", year: 1994, image_url: "images/MovieImages/movie0.jpg"},
+    {id: 1, title: "The Godfather ", year: 1972, image_url: "images/MovieImages/movie1.jpg"},
+    {id: 2, title: "The Dark Knight", year: 2008, image_url: "images/MovieImages/movie2.jpg"},
+    {id: 3, title: "12 Angry Men", year: 1957, image_url: "images/MovieImages/movie3.jpg"},
+    {id: 4, title: " Schindler\'s List", year: 1993, image_url: "images/MovieImages/movie4.jpg"},
 ];
 //------------------------------------------------------------------------------------------------------
 //SLIDE SHOWS
