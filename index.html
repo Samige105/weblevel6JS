@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+    <head>
+        <!--Metadata, imports-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap</title>
+        <!--Bootstrap Embed-->
+        <link href="styles/style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid"> <!--Main Content-->
+            <div class="row overflow-visible" style="min-height: 8vh;"> <!--Navbar row-->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 m-0" id="navbar">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img src="images/global.png" alt="Logo"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="forms.html">Forms</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="xmljson.html">XML/RSS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript.html">Javascript</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="research.html">Research</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-12 px-0">
+                    <div class="showcase"></div>
+                    <div class="bg-text">
+                        <h2>Advanced Internet and Web Learning Portfolio</h2>
+                        <h1>I am James Sadler</h1>
+                        <p>And I'm a Web Developer</p>
+                    </div>
+                </div>
+            </div>
+			<div class="row bg-secondary"> <!--Row 2-->
+				<!--Divide into 2 column-->
+				<div class="col-sm-12 col-md-6 col-lg-6 bg-warning">
+					<div class="row">
+						<div class="col-sm-12 col-md-12">
+							<h1>My Bio</h1>
+						</div>
+						
+						<div class="col-sm-12 col-md-3 d-flex align-items-center">
+							<img src="Images/portrait-icon.jpg" alt="Portrait" class="img-fluid d-block">
+						</div>
+						
+						<div class="col-sm-12 col-md-9">
+							<p>Lorem ipsum dolor sit amet, 
+							consectetur adipiscing elit, sed do eiusmod tempor 
+							incididunt ut labore et dolore magna aliqua. Ut enim 
+							ad minim veniam, quis nostrud exercitation ullamco 
+							laboris nisi ut aliquip ex ea commodo consequat. 
+							Duis aute irure dolor in reprehenderit in voluptate 
+							velit esse cillum dolore eu fugiat nulla pariatur. 
+							Excepteur sint occaecat cupidatat non proident, 
+							sunt in culpa qui officia deserunt mollit anim id 
+							est laborum.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6 bg-danger">
+				    <h1>My Web Technologies</h1>
+				    <h2>My top 5 Web Technologies</h2>
+				    <ol>
+				        <li>Code Editor: Notepad ++</li>
+				        <li>Hosting: Github</li>
+				        <li>Browser: Chrome</li>
+				        <li>Frameworks: Bootstrap, ReactJS, JQuery</li>
+				        <li>Trio Web Language: HTML, CSS, JS</li>
+				    </ol>
+				</div>
+			</div>
+			<div class="row bg-primary"> <!--Row 3-->
+				<!--Divide into 3 column-->
+				<div class="col-12">
+					<h1>My Web Development Competenices</h1>
+				</div>
+				<div class="row m-0" style="justify-content: center;">
+				    <div class="col-sm-12 col-md-4" id="flipbox">
+                        <div id="flipbox-inner">
+                            <div id="flipbox-front">
+                                <h1>HTML-5</h1>
+                                <p>Markdown</p>
+                                <img src="images/html5.png" style="width: 200px; height: 175px">
+                            </div>
+                            <div id="flipbox-back">
+                                <h1>HTML-5</h1>
+                                <p>Competence</p>
+                                <span class="dot_1"></span>
+                                <span class="dot_1"></span>
+                                <span class="dot_1"></span>
+                                <span class="dot_1"></span>
+                                <span class="dot_05"></span>
+                            </div>
+                        </div>
+				    </div>
+                
+				    <div class="col-sm-12 col-md-4" id="flipbox">
+                        <div id="flipbox-inner">
+                            <div id="flipbox-front">
+                                <h1>CSS</h1>
+                                <p>Styling</p>
+                                <img src="images/css3.png" style="width: 200px; height: 175px">
+                            </div>
+                            <div id="flipbox-back">
+                                <h1>CSS</h1>
+                                <p>Competence</p>
+                                <span class="dot_1"></span>
+                                <span class="dot_1"></span>
+                                <span class="dot_1"></span>
+                                <span class="dot_1"></span>
+                                <span class="dot_0"></span>
+                            </div>
+                        </div>
+				    </div>
+                
+				    <div class="col-sm-12 col-md-4" id="flipbox">
+                        <div id="flipbox-inner">
+                            <div id="flipbox-front">
+                                <h1>Javascript</h1>
+                                <p>Scripting</p>
+                                <img src="images/javascript.png" style="width: 200px; height: 175px">
+                            </div>
+                            <div id="flipbox-back">
+                                <h1>Javascript</h1>
+                                <p>Competence</p>
+                                <span class="dot_1"></span>
+                                <span class="dot_1"></span>
+                                <span class="dot_1"></span>
+                                <span class="dot_05"></span>
+                                <span class="dot_0"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+
+            <div class="row" style="background-color: orangered"> <!--Row 4-->
+				<!--Divide into 1 column-->
+				<div class="col-12">
+					<h1>Statement Of Authenticity</h1>
+					<p style="padding-left:60px">I confirm that:<br>
+						This is an original assessment and is entirely my 
+						own work.<br>
+						It contains no material previously published 
+						or written by another<br> person or myself except 
+						where due acknowledgement is made in the text.<br>
+						No material which to a substantial extent, has 
+						been submitted for any other academic course, 
+						is included without acknowledgement.
+					</p>
+				</div>
+			</div>   
+            <div class="row" id="footer"> <!--Footer-->
+                <div class="col-12 col-md-4 m-0 p-0"> <!--Column 1: Social Media Icons-->
+                    <img src="images/linkedin.png">
+                    <img src="images/youtube.png">
+                    <img src="images/twitter.png">
+                    <img src="images/facebook.png">
+                    <img src="images/instagram.png">
+                </div>
+                <div class="col-8 col-md-4 text-center"> <!--Column 2: Copyright-->
+                    <p>&copy by James Sadler 2023</p>
+                </div>
+                <div class="col-4 col-md-4 text-end"> <!--Column 3: Privacy Policy-->
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
